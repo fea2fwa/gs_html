@@ -1,0 +1,138 @@
+/* ここから下に記載していく */
+@charset "utf-8"
+body{
+    background: white;
+    width: 1366px;
+    color: ;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* メインビジュアル */
+.mainvisual{
+    width: 1366px;
+    position: relative;
+    margin: 0 0 30px;
+}
+
+.mainvisual p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+.mainvisual img{
+    width: 100%;
+    height: auto;
+}
+
+/* Aboutセクション */
+.profile__title{
+    margin: 0 0 30px;
+    font-size: 24px;
+    color: #ffd61a;
+    font-weight: bold;
+}
+
+.profile__summary{
+    margin: 0 0 60px;
+}
+
+.profile__main{
+    margin: 0 0 40px;
+    line-height: 2.0;
+}
+
+.profile__end{
+    margin: 0 0 80px;
+    line-height: 2.0;
+}
+
+/* Imagesセクション */
+.images__list{
+    width: 1366px;
+    display: flex;
+}
+
+.images__item{
+    width: 25%;
+}
+
+/* Courseセクション */
+.wrapper{
+    max-width: 1366px;
+    margin: auto;
+}
+
+.course__title{
+    margin: 60px 0 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.course__summary{
+    margin: 0 0 60px;
+    line-height: 2.0;
+}
+
+/* NEWSセクション */
+.news__title{
+    margin: 60 0 30px;
+    font-size: 24px;
+    color: #ffd61a;
+    font-weight: bold;
+}
+
+.news__eyecatch{
+    margin: 0 0 30px;
+}
+
+.news__date{
+    margin: 0 0 24px;
+}
+
+.news__body{
+    width: 300px;
+}
+
+.btn{
+    display: block;
+    width: 300px;
+    /* height: 60px; */
+    margin: auto;
+    padding: 21px 0;
+    background-color: #ffd61a;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Flexbox 画像横並び */
+.flexbox_parent{
+    display: -webkit-flex;
+    display: flex;
+    width: 1366px;
+}
+
+.flexbox_child{
+
+}
+
+#header{
+    height:100px;
+    font-size: 21px;
+}
+
+li{
+    list-style: none;
+    float:right;
+}
