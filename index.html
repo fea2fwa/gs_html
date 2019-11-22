@@ -90,11 +90,7 @@
             <div class="contents-container">
                   <div class="item-left">
                   <h2 class="course__subtitle-reverse">必要な知識もしっかりと取得</h2>
-                  <P class="course__explanation-reverse">チーズ作りには、しっかりとした食に関する知識が
-                  欠かせません。チーズアカデミーでは、一流講師陣による、
-                  チーズ作りに必要ないろはを余すところなく学べます。
-                  チーズそのものでなく、栄養学全般を学ぶことも
-                  可能ですので、チーズ以外への展開も夢ではないでしょう。</P>
+                  <P class="course__explanation-reverse">チーズ作りには、しっかりとした食に関する知識が欠かせません。チーズアカデミーでは、一流講師陣による、チーズ作りに必要ないろはを余すところなく学べます。チーズそのものでなく、栄養学全般を学ぶことも可能ですので、チーズ以外への展開も夢ではないでしょう。</P>
                   </div>
                   <div class="item-right">
                   <img src="img/course_02.jpg" alt="">
@@ -200,13 +196,24 @@
                               <dt class="form-title">メールアドレス</dt>
                               <dd class="form-item"><input type="email" name="email" id="" class="form-parts"></dd>
                               <dt class="form-title">チーズアカデミーを<br>知ったきっかけ</dt>
-                              <dd class="form-item"><input type="text" name="motivation" class="form-parts"></dd>
+                              <dd class="form-item">
+                                    <div class="form-selectbox">
+                                          <select required>
+                                                <option value="" hidden></option>
+                                                <option value="1">google検索</option>
+                                                <option value="2">SNS</option>
+                                                <option value="3">紹介</option>
+                                                <option value="4">たまたま通りかかった</option>
+                                                <option value="4">その他</option>
+                                          </select>
+                                    </div>
+                              </dd>
                               <dt class="form-title">志望動機</dt>
                               <dd class="form-item">
-                                    <label for="startup"><input type="radio" name="" id="startup" value="起業をしたい">起業をしたい</label><br>
-                                    <label for="jobchange"><input type="radio" name="" id="jobchange" value="チーズ企業に就職・転職したい">チーズ企業に就職・転職したい</label><br>
-                                    <label for="training"><input type="radio" name="" id="training" value="チーズと関わる仕事をしており、仕事に生かしたい">チーズと関わる仕事をしており、仕事に生かしたい</label><br>
-                                    <label for="interest"><input type="radio" name="" id="interest" value="チーズの教養を身に着けたい">チーズの教養を身に着けたい</label>
+                                    <label for="startup"><input type="checkbox" name="" id="startup" value="起業をしたい">起業をしたい</label><br>
+                                    <label for="jobchange"><input type="checkbox" name="" id="jobchange" value="チーズ企業に就職・転職したい">チーズ企業に就職・転職したい</label><br>
+                                    <label for="training"><input type="checkbox" name="" id="training" value="チーズと関わる仕事をしており、仕事に生かしたい">チーズと関わる仕事をしており、仕事に生かしたい</label><br>
+                                    <label for="interest"><input type="checkbox" name="" id="interest" value="チーズの教養を身に着けたい">チーズの教養を身に着けたい</label>
                               </dd>
                               <dt class="form-title">詳細</dt>
                               <dd class="form-item" >
@@ -218,17 +225,6 @@
             </div>
       </section>
 
-
-
-
-
-
-      チーズアカデミーを知ったきっかけ
-      ・google検索
-      ・SNS
-      ・紹介
-      ・たまたま通りかかった
-      ・その他
       </div>
       <!-- /.content -->
 

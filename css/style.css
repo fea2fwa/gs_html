@@ -188,6 +188,12 @@ body{
     width: 300px;
 }
 
+.news__list-item:hover{
+    background-color: whitesmoke;
+    border-color: #ffd61a;
+    font-weight: bold;
+}
+
 .news__title{
     margin: 60px 0 30px;
     font-size: 24px;
@@ -223,6 +229,12 @@ body{
     font-weight: bold;
     text-align: center;
     text-decoration: none;
+}
+
+.btn:hover {
+  background-color: whitesmoke;
+  border-color: #ffd61a;
+  color: #ffd61a;
 }
 
 
@@ -306,11 +318,26 @@ body{
     width: 180px;
     margin: 0 64px 0 0;
     padding: 16px 0 0 0;
+    line-height: 1.5;
 }
 
 .form-item{
     width: 328px;
     margin: 8px 0 8px 8px;
+}
+
+.form-selectbox {
+	overflow: hidden;
+    width: 100%;
+    height: auto;
+	margin: 10px auto;
+    text-align: center;
+    font-size: 16px;
+}
+
+.form-selectbox select{
+    padding: 8px;
+    width: 100%;
 }
 
 .form-parts{
